@@ -1,0 +1,18 @@
+# library card credentials
+LIBRARY_CARD_NUMBER=your_card_number
+LIBRARY_CARD_PIN=your_pin
+
+#Zoho credentials
+ZOHO_EMAIL=your_zoho_email
+ZOHO_PASSWORD=your_zoho_email_password
+RECIPIENT_EMAIL=email_to_send_notification_to
+
+# script settings
+# checks for overdue books
+CHECK_FOR_OVERDUE=false
+#checks if any books are due soon
+CHECK_FOR_DUE_SOON=false
+#check if any holds are ready for pickup
+CHECK_FOR_READY_FOR_PICKUP=true
+#checks if any holds are in transit
+CHECK_FOR_IN_TRANSIT=true
